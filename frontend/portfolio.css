@@ -1,0 +1,248 @@
+body{
+margin: 0%;
+padding: 0;
+width: 1450px ;
+}
+.containera{
+    width: 1450px;
+    height: 424px;
+}
+.wrap{
+    text-align: right;
+    margin-right: 2px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 39px;
+    height: 17px;
+}
+.menu{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 4px;
+}
+.para{
+    width: 365px;
+    height: 175px;
+    padding-left: 683px;
+}
+.graph{
+    font-size: 72px;
+    color: light;
+}
+.containerb{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+p{
+    text-align: left;
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+}
+.jina{
+    display: block;
+    align-items: center;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-left: 0px;
+}
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the image cover the entire container */
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+}
+.overlay-image img{
+    margin-left: 340px;
+    max-width: 100%;
+    margin-right: 4px;
+    position: relative;
+    z-index: 12;
+}
+.works{
+    background-color: #1C4B43;
+    font-size: 37px;
+    width: 350px;
+    margin-left: 272px;
+    padding-left: 415px;
+    position: relative;
+    margin-top: -100px;
+}
+.z-inex{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the image cover the entire container */
+    height: 100%; /* Make the image cover the entire container */
+    object-fit: cover;
+    display: flex;
+    margin-bottom: 10px;
+}
+.z-index img{
+    margin-left: 850px;
+    max-width: 100%;
+    position: relative;
+    z-index: 12;
+    padding-left: 60px;
+}
+.head{
+    background-color: #14CFAE;
+    padding-left: 90px;
+    padding-top: 10px;
+    width: 956px;
+    height: 67px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+.sec-paragraph{
+    position: absolute;
+}
+.head h2{
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 24px;
+    color: #303030;
+    padding-left: 50px;
+}
+.section1{
+    background-color: black;
+}
+.section1 h1{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 60px;
+    color: #14CFAE;
+    text-align: center;
+}
+.section1 p{
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+}
+.role{
+    display: flex;
+}
+.duty1{
+    text-align: center;
+    padding: 14px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: black;
+    padding-left: 239px;
+}
+.duty2{
+    text-align: center;
+    padding: 14px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: black;
+}
+.duty3{
+    text-align: center;
+    padding: 14px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: black;
+    padding-right: 239px;
+}
+.see{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.see h3{
+    background-color: #16E0BD;
+    padding: 10px 51px 10px 50px;
+    color: #333333;
+    font-size: 16px;
+}
+.section2 h1{
+    padding-left: 150px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    color:#303030;
+    font-size: 60px;
+}
+.section2 p{
+    width: 556.9px;
+    left: 100px;
+    margin-left: 90px;
+    font-size: 18px;
+    padding-left: 150px;
+    color: #303030;
+    position: relative;
+}
+.my-work{
+    background-color: #2E2E2E;
+    width: 1450px;
+    height: 900px;
+    margin-top: 200px;
+}
+.definition{
+    text-align: center;
+}
+.definition h1{
+    color: #FFFFFF;
+    padding-left: 609px;
+    padding-top: 123px;
+    padding-right: 609px;
+}
+.definition h3{
+    color: #16E0BD;
+    height: 35px;
+    width: 336px;
+    padding-left: 557px;
+    padding-right: 557px;
+}
+.pictures{
+    justify-content: center;
+    display: flex;
+    grid-template-columns: repeat(auto-fil, minmax(25%, 1fr));
+    flex-wrap: wrap;
+    padding-left: 116px;
+    padding-right: 134px; 
+}
+img{
+    object-fit: cover;
+    height: 240px;
+    width: 280px;
+    margin: 0%;
+    padding-bottom: 0px;
+}
+.icons{
+    background-color: #141414;
+    height: 252px;
+    width: 1450px;
+    padding-top: 79px;
+    color: #16E0BD;
+
+}
+.icon{
+    padding-top: 36px;
+    padding-left: 607px;
+    padding-right: 607px;
+    padding-bottom: 78px;
+    width: 500px;
+}
+.icon i{
+    margin-right: 50px;
+    font-size: 24px;
+}
+.icons a{
+    color: #16E0BD;
+    font-size: 24px;
+    padding-left: 607px;
+    width: 214px;
+    height: 252px;
+}
+.profile{
+    padding-left: 332px;
+    padding-top: 111px;
+    padding-right: 728px;
+}
